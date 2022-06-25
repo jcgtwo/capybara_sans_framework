@@ -2,7 +2,7 @@
 
 require_relative '../lib/base_test_case'
 
-class FeatureThang < BaseTestCase
+class VerifyTitles < BaseTestCase
   def initialize
     super
     @description = "#{__FILE__.split('/').last} - " \

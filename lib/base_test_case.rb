@@ -14,8 +14,8 @@ class BaseTestCase
 
   attr_reader :description
 
-  DRIVER = :selenium_chrome_headless
-  # DRIVER = :selenium_chrome
+  # DRIVER = :selenium_chrome_headless
+  DRIVER = :selenium_chrome
 
   def initialize
     @description = 'Default test description'

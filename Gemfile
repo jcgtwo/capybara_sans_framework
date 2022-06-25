@@ -13,3 +13,5 @@ gem 'webdrivers', '~> 4.4'
 gem 'capybara-selenium', '~> 0.0.6'
 
 gem 'require_all', '~> 3.0'
+
+gem 'rubocop', '~> 1.30'
